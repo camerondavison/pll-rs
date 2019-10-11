@@ -1,2 +1,2 @@
 # pll-rs
-poll - like watch but exits on success
+pll - like watch but exits on success
