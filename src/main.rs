@@ -36,14 +36,14 @@ fn main() {
             Arg::with_name("max-elapsed")
                 .short("m")
                 .long("max-elapsed")
-                .default_value("30s")
+                .default_value("60s")
                 .help("max elapsed duration"),
         )
         .arg(
             Arg::with_name("multiplier")
                 .short("x")
                 .long("multiplier")
-                .default_value("1.5")
+                .default_value("1.3")
                 .help("multiplier for interval"),
         )
         .arg(
